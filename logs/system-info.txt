@@ -1,0 +1,17 @@
+System Configuration
+
+Attacker Machine:
+Operating System: Kali Linux 2023.4 (64-bit)
+Tool: hping3 3.0.0-alpha-2
+
+Victim Machine:
+Operating System: Windows 10 Pro (64-bit)
+
+Packet Analyzer:
+Wireshark Version: 4.0.x
+
+GeoIP Database:
+GeoLite2 City Database (2026 Release)
+
+Network Setup:
+Isolated Private LAN Environment
