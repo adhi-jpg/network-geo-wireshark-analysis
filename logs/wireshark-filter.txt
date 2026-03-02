@@ -1,0 +1,18 @@
+Display Filter Applied:
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+Purpose:
+Filter only TCP SYN packets without ACK flag set.
+
+Observation:
+Large number of SYN packets observed from:
+Source IP: 172.20.4.197
+
+Example Packet:
+No: 38
+Protocol: TCP
+Length: 66 bytes
+Info: 27548 → 443 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Conclusion:
+Indicates SYN flood behavior due to repeated SYN packets.
