@@ -1,0 +1,24 @@
+Packet Frame Details:
+
+Frame 38:
+66 bytes on wire (528 bits)
+66 bytes captured
+
+Ethernet II:
+Source MAC: 5c:d6:9a:c0:bf:be
+Destination MAC: 7c:5a:1c:d1:3f:f0
+
+Internet Protocol Version 4:
+Source IP: 172.20.4.197
+Destination IP: 8.8.8.8
+
+Transmission Control Protocol:
+Source Port: 27548
+Destination Port: 443
+Sequence Number: 0
+Window Size: 65535
+Flags: SYN
+
+Interpretation:
+TCP handshake initiated but no ACK response.
+Pattern repeated multiple times indicating flood behavior.
