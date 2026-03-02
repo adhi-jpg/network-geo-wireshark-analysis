@@ -1,0 +1,26 @@
+Wireshark Endpoint Statistics (IPv4)
+
+Total IPv4 Addresses Detected: 113
+
+Top Observed IP Addresses:
+
+3.127.96.140     Germany
+3.233.158.26     United States
+8.8.8.8          United States
+103.165.166.40   India (Thrissur)
+103.165.166.41   India (Thrissur)
+
+Columns Observed:
+- Packets
+- Bytes
+- Tx Packets
+- Rx Packets
+- Country
+- City
+- Latitude
+- Longitude
+- AS Organization
+
+Observation:
+Multiple IPs observed due to background traffic.
+Primary suspicious source: 172.20.4.197
