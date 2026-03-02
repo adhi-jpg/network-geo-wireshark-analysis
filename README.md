@@ -1,33 +1,52 @@
 # Network Geo Location Analysis Using Wireshark Packet Capture
 
-## Overview
-This project demonstrates detection of a TCP SYN Flood attack using Wireshark packet capture and IP geolocation analysis using the GeoLite2 database.
+## 📌 Project Overview
 
-## Objectives
-- Simulate SYN flood attack using hping3
-- Capture packets using Wireshark
-- Filter and inspect TCP SYN traffic
-- Extract source IP and MAC address
-- Perform IP geolocation mapping
+This project demonstrates the detection and analysis of a TCP SYN Flood attack using Wireshark packet capture and IP geolocation mapping.
 
-## Tools Used
-- Kali Linux 2023.4
-- hping3 3.0.0-alpha-2
-- Wireshark 4.0.x
-- GeoLite2 Database (2026 Release)
+The objective was to:
 
-## Architecture
-See `/diagrams/architecture.png`
+- Simulate a TCP SYN Flood attack using hping3
+- Capture and filter suspicious packets using Wireshark
+- Analyze TCP flags and packet structure
+- Extract attacker IP information
+- Perform IP geolocation mapping using the GeoLite2 database
 
-## Logs
-All attack execution logs are stored in `/logs/`
+The experiment was conducted in a controlled lab environment for academic cybersecurity study purposes.
 
-## Packet Capture
-PCAP file available in `/captures/`
+---
 
-## Reproducibility
-Follow the methodology described in the report PDF inside `/report/`
+## 🎯 Objectives
 
-## Author
-Adithyan H  
-Reg No: 23UBC203
+- Simulate SYN flood attack traffic
+- Apply Wireshark display filters
+- Inspect TCP headers and flags
+- Identify suspicious endpoints
+- Map IP addresses geographically
+- Document findings with screenshots and logs
+
+---
+
+## 🛠 Tools & Software Versions
+
+| Tool | Version | Purpose |
+|------|----------|----------|
+| Kali Linux | 2023.4 (64-bit) | Attacker Machine |
+| hping3 | 3.0.0-alpha-2 | SYN Flood Simulation |
+| Windows 10 Pro | 64-bit | Victim Machine |
+| Wireshark | 4.0.x | Packet Capture & Analysis |
+| GeoLite2 City DB | 2026 Release | IP Geolocation |
+
+---
+
+## 🏗 Architecture
+
+The system architecture consists of:
+
+- Attacker Machine (Kali Linux)
+- Victim Machine (Windows 10)
+- Packet Capture using Wireshark
+- IP Extraction
+- GeoLite2 Database Mapping
+
+Architecture diagram available at:
