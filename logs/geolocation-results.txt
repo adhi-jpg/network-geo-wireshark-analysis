@@ -1,0 +1,25 @@
+Geolocation Mapping using GeoLite2 Database
+
+Mapped IP Addresses:
+
+103.165.166.40
+Location: Thrissur, India
+Latitude: 10.516°
+Longitude: 76.215°
+
+103.165.166.41
+Location: Thrissur, India
+Latitude: 10.516°
+Longitude: 76.215°
+
+Additional Clusters Observed:
+- Mumbai, India
+- Chennai, India
+- Ahmedabad, India
+
+Mapping Tool:
+Wireshark IP Location Map (Leaflet + OpenStreetMap)
+
+Conclusion:
+IP addresses resolved to approximate ISP-based geographic locations.
+Exact physical address cannot be determined.
